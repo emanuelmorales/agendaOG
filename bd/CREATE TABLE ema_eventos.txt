@@ -1,0 +1,11 @@
+CREATE TABLE `ema_eventos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `descripcion` text CHARACTER SET utf8mb4 DEFAULT NULL,
+  `color` varchar(45) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `textColor` varchar(45) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `start` timestamp NULL DEFAULT NULL,
+  `end` timestamp NULL DEFAULT NULL,
+  `estado` varchar(10) CHARACTER SET utf8mb4 DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
